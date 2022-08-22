@@ -30,6 +30,6 @@
    
    Beehive attacked by bears cause natural response that  make the bees  rise up together and defend their queen just like the robot when its get the command to        move, building a tower or creating the letter K.
    
-  
-   ![Uploading Cover_suggestion_1.jpg…]()
+  ![Cover_suggestion_1](https://user-images.githubusercontent.com/108065131/185954100-c207e1bc-fcb4-4734-97a0-e3d67f04c9f5.jpg)
+
 
