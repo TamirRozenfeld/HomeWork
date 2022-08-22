@@ -1,7 +1,7 @@
 # (1)
 from functools import cache
-
-
+Bear = "Big and Brown"
+Food = "nectar"
 class HoneyBee:
     @cache
     def __init__(self, color, environment, age, name,):
@@ -24,6 +24,15 @@ class Adult_male(HoneyBee):
     @cache
     def function(self):
         print("When i see head with two antennae, a thorax with six legs and red lower body press Mating function")
+
+    @cache
+    def run(self):
+        for i in range(len(Bear)):
+            print(Bear[i])
+            if i == 4:
+                print("run!")
+            elif i == 5:
+                print("Zzzz")
 
     @cache
     def mating(self):
@@ -60,7 +69,11 @@ class Larva(HoneyBee):
 
     @cache
     def suck(self):
-        print("Press button 1")
+        print("Press button one")
+
+    @cache
+    def one(self):
+         print("Done sucking")
 
     @cache
     def Identification(self):
@@ -77,9 +90,19 @@ class Pupa(HoneyBee):
         print(f"I'm Pupa My color {self.color} i live {self.environment} my age is {self.age} days and my name is {self.name}")
 
 class Queen(HoneyBee):
+
     @cache
     def sting(self):
         print(f"When i see a head with two antennae, a thorax with six legs, and an abdomen that i haven't seen before,i push and pull my wings, press on my attack button")
+
+    @cache
+    def waggeling(self):
+        if Food == "nectar":
+            print("Back to hive")
+
+            @cache
+            def pull_trigger():
+                print("dance")
 
     @cache
     def attack(self):
@@ -101,7 +124,14 @@ class Queen(HoneyBee):
     def function(self):
         print("When all cell empty i should laying my eggs")
 
-
+    @cache
+    def run(self):
+        for i in range(len(Bear)):
+            print(Bear[i])
+            if i == 4:
+                print("run!")
+            elif i == 5:
+                print("Zzzz")
     @cache
     def Identification(self):
         print(f"I'm the Queen my color {self.color} i live in the{self.environment} my age is {self.age} days and my name is {self.name}")
