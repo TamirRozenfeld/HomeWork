@@ -17,19 +17,11 @@
    
 ## 6. How would you model & analyze the family lineage tree of a bee
    Swarming is the process by which honey bee colonies reproduce to form new colonies. 
-   When a honey bee colony outgrows its home, becomes too congested, 
-   or too populated for the queen’s pheromones to control the entire workforce,
+   When a honey bee colony outgrows its home, become too populated for the queen’s pheromones to control the entire workforce,
    then the workers signal that it is time to swarm. The workers begin building swarm cells for new queens. 
    Once the swarm cells are constructed, and the queen lays eggs in them, then the colony changes its behavior.
    Foraging slows down, and the workers begin erratic movements within the hive. 
-   Meanwhile, the queen quits laying eggs and reduces her weight to be able to fly. When the queen is ready,
-   she leaves the hive and is followed by about half of the workers in a massive cloud of flying bees.  
-   The queen will find a nearby tree, land, and emit pheromones that signal the workers to cluster around her. 
-   The cluster will remain there for several hours while scout bees explore the area for a new home. Often the cluster will leave, 
-   travel a mile or more, and reform on another branch far away from the original hive. 
-   The cluster will remain until scout bees locate a new hive or cavity to occupy. 
-   Once a suitable home is found, the entire cluster will take flight and move to the new location where it will begin building comb, 
-   developing new brood, and gathering pollen and nectar.
+ 
    
 ## 7. How would you design beehive behavior in light of this video:
 
