@@ -2,6 +2,10 @@
 from functools import cache
 Bear = "Big and Brown"
 Food = "nectar"
+Pull = 1
+Push = 5
+eggs = 4
+
 class HoneyBee:
     @cache
     def __init__(self, color, environment, age, name,):
@@ -19,7 +23,12 @@ class Adult_male(HoneyBee):
 
     @cache
     def speak(self):
-        print("Zzzzzz every 5 seconds")
+        for i in range(5):
+            if i == 3:
+                print("Zzzzzz every 5 seconds")
+            else:
+
+                print("Stop")
 
     @cache
     def function(self):
@@ -30,22 +39,26 @@ class Adult_male(HoneyBee):
         for i in range(len(Bear)):
             print(Bear[i])
             if i == 4:
-                print("run!")
+                print("Bear run!")
             elif i == 5:
                 print("Zzzz")
 
     @cache
     def mating(self):
-            print("Go over the object and press bomb")
+            print("Go over the object and press love bomb")
     @cache
     def bomb(self):
             print("Throw the bomb and press on suicide")
     @cache
     def suicide(self):
-        print("Trow self bomb")
+        print("Trow self death bomb")
     @cache
     def flight(self):
         print("push and pull")
+        if Pull > Push:
+            print("Push")
+        else:
+            print("pull")
 
     @cache
     def Identification(self):
@@ -99,10 +112,16 @@ class Queen(HoneyBee):
     def waggeling(self):
         if Food == "nectar":
             print("Back to hive")
+        @cache
+        def dancing():
+            print("dance")
+        dancing()
 
-            @cache
-            def pull_trigger():
-                print("dance")
+        @cache
+        def back():
+            print("Back to the nectar")
+        back()
+
 
     @cache
     def attack(self):
@@ -112,24 +131,46 @@ class Queen(HoneyBee):
     def flight(self):
         print("Push and pull")
 
+        if Pull > Push:
+            print("Push")
+        else:
+            print("pull")
+
+
     @cache
     def food(self):
         print("Sucks when I see something beautiful, aromatic, colourful, garden-fresh")
 
     @cache
     def speak(self):
-        print("Zzzzzz every 5 seconds")
+
+        for i in range(5):
+            if i == 3:
+                print("Zzzzzz every 5 seconds")
+            else:
+
+                print("Stop")
+
 
     @cache
     def function(self):
-        print("When all cell empty i should laying my eggs")
+        print("When all cell empty i should press  on laying my eggs")
+
+        @cache
+        def laying_my_egg():
+
+            for q in range(4):
+                print(q)
+                if q == 2:
+                    print("Enough Eggs")
+        laying_my_egg()
 
     @cache
     def run(self):
         for i in range(len(Bear)):
             print(Bear[i])
             if i == 4:
-                print("run!")
+                print("Bear run!")
             elif i == 5:
                 print("Zzzz")
     @cache
