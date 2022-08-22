@@ -1,5 +1,5 @@
 #### HomeWork
-## 2
+## 2.
    The problems that might arise from scaling such a game on one machine could
    be the same problems that happened to me in my last project(Object Detection) when i tried to run the training command,
    it had to run for a long time. With million of bees in all stages moving around, my computer would probably crash, this is why
