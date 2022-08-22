@@ -1,5 +1,6 @@
 #### HomeWork
-## 2.
+
+## 2. Describe the problems that might arise from scaling such a game on one machine.
    The problems that might arise from scaling such a game on one machine could
    be the same problems that happened to me in my last project(Object Detection) when i tried to run the training command,
    it had to run for a long time. With million of bees in all stages moving around, my computer would probably crash, this is why
@@ -8,13 +9,13 @@
    more advantage could be that more machines easily added if necessary, And a failure of one machine arn't leading to failure of the entire system
    other machines can still communicate with each other.
    
-## 3.
+## 3. Describe the problems that might arise from scaling such a game in a distributed environment.
    1.It is difficult to provide adequate security in distributed systems because the nodes as well as the connections need to be secured.
    2.Some messages and data can be lost in the network while moving from one node to another.
    3.The database connected to the distributed systems is quite complicated and difficult to handle as compared to a single user system.
    4.Overloading may occur in the network if all the nodes of the distributed system try to send data at once.
    
-## 6.
+## 6. How would you model & analyze the family lineage tree of a bee
    Swarming is the process by which honey bee colonies reproduce to form new colonies. 
    When a honey bee colony outgrows its home, becomes too congested, 
    or too populated for the queen’s pheromones to control the entire workforce,
@@ -29,3 +30,6 @@
    The cluster will remain until scout bees locate a new hive or cavity to occupy. 
    Once a suitable home is found, the entire cluster will take flight and move to the new location where it will begin building comb, 
    developing new brood, and gathering pollen and nectar.
+   
+## 7. How would you design beehive behavior in light of this video:
+   
