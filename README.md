@@ -18,7 +18,8 @@
 ### 6. How would you model & analyze the family lineage tree of a bee
    Swarming is the process by which honey bee colonies reproduce to form new colonies. 
    When a honey bee colony outgrows its home, become too populated for the queen’s pheromones to control the entire workforce,
-   then the workers signal that it is time to swarm. The workers begin building swarm cells for new queens. 
+   then the workers signal that it is![Cover_suggestion_1](https://user-images.githubusercontent.com/108065131/185953878-deae613e-548d-4fbc-9639-27a57b731772.jpg)
+ time to swarm. The workers begin building swarm cells for new queens. 
    Once the swarm cells are constructed, and the queen lays eggs in them, then the colony changes its behavior.
    Foraging slows down, and the workers begin erratic movements within the hive. 
  
@@ -29,4 +30,6 @@
    
    Beehive attacked by bears cause natural response that  make the bees  rise up together and defend their queen just like the robot when its get the command to        move, building a tower or creating the letter K.
    
-   
+  
+   ![Uploading Cover_suggestion_1.jpg…]()
+
