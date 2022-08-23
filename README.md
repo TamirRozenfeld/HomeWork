@@ -22,16 +22,12 @@
   The solution for this is to open a game for each area so the CPU and memory will not require too much resources for example a game for only Tel aviv gamers or only in Jerusalem etc..., another solution could be to put a barrier between the players so there will be no need to see each other.
 
 ### 6. How would you model & analyze the family lineage tree of a bee
-   Swarming is the process by which honey bee colonies reproduce to form new colonies. 
-   When a honey bee colony outgrows its home, become too populated for the queen’s pheromones to control the entire workforce,
-   then the workers signal that it is
- time to swarm. The workers begin building swarm cells for new queens. 
-   Once the swarm cells are constructed, and the queen lays eggs in them, then the colony changes its behavior.
-   Foraging slows down, and the workers begin erratic movements within the hive. 
+ #####  Description in HB_LifeCycle.
  
    
 ### 7. How would you design beehive behavior in light of this video:
 
+#####Description in HB_LifeCycle.
    The bees like the robots in the video moves in relation to each other, one bee could activate an algorithm for all others bees and make them start  moving in cohesion for example one bee can find a source of food, she want to tell all the others bees what she had found, she does it by time of waggling, the direction of waggling in relation to the hive indicates direction of the source of food for example 1 second of waggling to the left mean approximately 750m to the left in relation to the hive.
    
    Beehive attacked by bears cause natural response that  make the bees  rise up together and defend their queen just like the robot when its get the command to        move, building a tower or creating the letter K.
