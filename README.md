@@ -14,7 +14,8 @@
    2.Some messages and data can be lost in the network while moving from one node to another.
    3.The database connected to the distributed systems is quite complicated and difficult to handle as compared to a single user system.
    4.Overloading may occur in the network if all the nodes of the distributed system try to send data at once.
-   
+  ###  5. What would the optimization and operations challenges look like if the
+same game is played online by millions of users at once?
 ### 6. How would you model & analyze the family lineage tree of a bee
    Swarming is the process by which honey bee colonies reproduce to form new colonies. 
    When a honey bee colony outgrows its home, become too populated for the queen’s pheromones to control the entire workforce,
