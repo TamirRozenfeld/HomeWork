@@ -27,7 +27,7 @@
    
 ### 7. How would you design beehive behavior in light of this video:
 
-#####Description in HB_LifeCycle.
+##### Description in HB_LifeCycle.
    The bees like the robots in the video moves in relation to each other, one bee could activate an algorithm for all others bees and make them start  moving in cohesion for example one bee can find a source of food, she want to tell all the others bees what she had found, she does it by time of waggling, the direction of waggling in relation to the hive indicates direction of the source of food for example 1 second of waggling to the left mean approximately 750m to the left in relation to the hive.
    
    Beehive attacked by bears cause natural response that  make the bees  rise up together and defend their queen just like the robot when its get the command to        move, building a tower or creating the letter K.
