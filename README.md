@@ -14,8 +14,13 @@
    2.Some messages and data can be lost in the network while moving from one node to another.
    3.The database connected to the distributed systems is quite complicated and difficult to handle as compared to a single user system.
    4.Overloading may occur in the network if all the nodes of the distributed system try to send data at once.
-  ###  5. What would the optimization and operations challenges look like if the
-same game is played online by millions of users at once?
+   
+  ###  5. What would the optimization and operations challenges look like if the same game is played online by millions of users at once?
+  
+  With video games, there is a limited amount of processing power available. An item that is 5km away from the player will require memory and CPU resources to show up on the screen. The game developer will need to decide if rendering something 5km in the distance is worthwhile and if so, is there enough resources to allow for it.
+  Draw distance can go on for as long as the system hardware can handle. Larger draw distances will negatively impact the games frame rate.
+  The solution for this is to open a game for each area so the CPU and memory will not require too much resources for example a game for only Tel aviv gamers or only in Jerusalem etc..., another solution could be to put a barrier between the players so there will be no need to see each other.
+
 ### 6. How would you model & analyze the family lineage tree of a bee
    Swarming is the process by which honey bee colonies reproduce to form new colonies. 
    When a honey bee colony outgrows its home, become too populated for the queen’s pheromones to control the entire workforce,
