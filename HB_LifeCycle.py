@@ -1,10 +1,12 @@
 # (1)
+import random
 from functools import cache
 Bear = "Big and Brown"
-Food = "nectar"
-Pull = 1
-Push = 5
-eggs = 4
+Food = "Nectar"
+Pull = [1]
+Push = [2]
+Bee_Color = ["Red","Yellow", "Purple", "White"]
+Random_Color = random.choice(Bee_Color)
 
 class HoneyBee:
     @cache
@@ -15,25 +17,19 @@ class HoneyBee:
         self.name = name
 
 class Adult_male(HoneyBee):
-
     @cache
     def food(self):
         print("Sucks when u see something beautiful, aromatic, colourful, garden-fresh and decagon")
-
-
     @cache
     def speak(self):
         for i in range(5):
             if i == 3:
                 print("Zzzzzz every 5 seconds")
             else:
-
                 print("Stop")
-
     @cache
     def function(self):
         print("When i see head with two antennae, a thorax with six legs and red lower body press Mating function")
-
     @cache
     def run(self):
         for i in range(len(Bear)):
@@ -42,7 +38,10 @@ class Adult_male(HoneyBee):
                 print("Bear run!")
             elif i == 5:
                 print("Zzzz")
-
+    @cache
+    def red_bee(self):
+        if Random_Color == "Red":
+            print("Flee!, there is a Bear")
     @cache
     def mating(self):
             print("Go over the object and press love bomb")
@@ -54,19 +53,17 @@ class Adult_male(HoneyBee):
         print("Trow self death bomb")
     @cache
     def flight(self):
-        print("push and pull")
-        if Pull > Push:
+# Push and Pull wings in order to fly.
+        if Push > Pull:
             print("Push")
         else:
             print("pull")
-
+        return Pull
     @cache
     def Identification(self):
         print(f"I'm adult male my color {self.color} i live in the {self.environment} my age is {self.age} days and my name is {self.name}")
 
-
 class Egg(HoneyBee):
-
     @cache
     def Identification(self):
         print(f"I'm Egg my color is {self.color} i live {self.environment} my age is {self.age} day and my name is {self.name}")
@@ -75,96 +72,70 @@ class Larva(HoneyBee):
     @cache
     def food(self):
         print("When i see two head with two antennae, a thorax with six legs press feed")
-
     @cache
     def feed(self):
-        print("Open mouth and press suck")
-
+        print("When there is an Adult_bee, vibrate and open mouth")
     @cache
-    def suck(self):
-        print("Press button one")
-
-    @cache
-    def one(self):
-         print("Done sucking")
-
+    def eating(self):
+         print("Sucking food Done!")
     @cache
     def Identification(self):
         print(f"I'm Larva  my color is {self.color} i live {self.environment} my age is {self.age} days and my name is {self.name}")
-
 
 class Pupa(HoneyBee):
     @cache
     def flight(self):
         print("press on red button in order to open the hole for the wings")
-
     @cache
     def Identification(self):
         print(f"I'm Pupa My color {self.color} i live {self.environment} my age is {self.age} days and my name is {self.name}")
 
 class Queen(HoneyBee):
-
     @cache
     def sting(self):
         print(f"When i see a head with two antennae, a thorax with six legs, and an abdomen that i haven't seen before,i push and pull my wings, press on my attack button")
-
     @cache
     def waggeling(self):
-        if Food == "nectar":
+        if Food == "Nectar":
             print("Back to hive")
         @cache
         def dancing():
-            print("dance")
+            print("Dance")
         dancing()
-
         @cache
         def back():
             print("Back to the nectar")
         back()
-
-
     @cache
     def attack(self):
         print("Shoot an arrow")
-
     @cache
     def flight(self):
         print("Push and pull")
-
         if Pull > Push:
             print("Push")
         else:
             print("pull")
-
-
     @cache
     def food(self):
         print("Sucks when I see something beautiful, aromatic, colourful, garden-fresh")
-
     @cache
     def speak(self):
-
         for i in range(5):
             if i == 3:
                 print("Zzzzzz every 5 seconds")
             else:
-
                 print("Stop")
-
-
     @cache
     def function(self):
         print("When all cell empty i should press  on laying my eggs")
-
         @cache
         def laying_my_egg():
-
             for q in range(4):
                 print(q)
                 if q == 2:
                     print("Enough Eggs")
         laying_my_egg()
-
     @cache
     def run(self):
         for i in range(len(Bear)):
@@ -173,6 +144,10 @@ class Queen(HoneyBee):
                 print("Bear run!")
             elif i == 5:
                 print("Zzzz")
+    @cache
+    def red_bee(self):
+        if Random_Color == "Red":
+            print("Flee!, there is a Bear")
     @cache
     def Identification(self):
         print(f"I'm the Queen my color {self.color} i live in the{self.environment} my age is {self.age} days and my name is {self.name}")
