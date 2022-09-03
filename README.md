@@ -1,5 +1,5 @@
 # HomeWork
-[Go to Real Cool Heading section](###How-would-you-design.)
+[Go to Real Cool Heading section](#7.-How-would-you-design.)
 ### 2. Describe the problems that might arise from scaling such a game on one machine.
    The problems that might arise from scaling such a game on one machine could
    be the same problems that happened to me in my last project(Object Detection) when i tried to run the training command,
