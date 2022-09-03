@@ -1,5 +1,5 @@
 # HomeWork
-[Go to Real Cool Heading section](#7.-How-would-you-design.)
+[Go to Real Cool Heading section](#real-cool-heading)
 ### 2. Describe the problems that might arise from scaling such a game on one machine.
    The problems that might arise from scaling such a game on one machine could
    be the same problems that happened to me in my last project(Object Detection) when i tried to run the training command,
@@ -31,7 +31,7 @@
    The bees like the robots in the video moves in relation to each other, one bee could activate an algorithm for all others bees and make them start  moving in cohesion for example one bee can find a source of food, she want to tell all the others bees what she had found, she does it by time of waggling, the direction of waggling in relation to the hive indicates direction of the source of food for example 1 second of waggling to the left mean approximately 750m to the left in relation to the hive.
    
    Beehive attacked by bears cause natural response that  make the bees  rise up together and defend their queen just like the robot when its get the command to        move, building a tower or creating the letter K.
-   
+   #Real Cool Heading
   ![Cover_suggestion_1](https://user-images.githubusercontent.com/108065131/185954100-c207e1bc-fcb4-4734-97a0-e3d67f04c9f5.jpg)
 
 
