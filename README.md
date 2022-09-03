@@ -1,12 +1,5 @@
 # HomeWork
 
- 1. [Header Name](#header-name)
-
-
-
-# Header Name
-
-https://google.com
 ### 2. Describe the problems that might arise from scaling such a game on one machine.
    The problems that might arise from scaling such a game on one machine could
    be the same problems that happened to me in my last project(Object Detection) when i tried to run the training command,
